@@ -1,0 +1,54 @@
+<html>
+<head>
+<link rel="stylesheet" href="bmi.css">
+<link rel="icon" type="image" href="bmi.jpg">
+<title>BMI Calculator</title>
+<body>
+
+  <h1>BMI</h1>
+  <p>Body Mass Index (BMI) is a person’s weight in kilograms divided by the square of height in meters. 
+     A high BMI can indicate high body fatness. 
+     BMI screens for weight categories that may lead to health problems, but it does not diagnose tde body fatness or healtd of an individual.  
+  </p>
+  <table align="center">
+	<tr>
+	  <th>BMI</th>
+	  <th>Weight Status</th>
+	</tr>
+	<tr>
+	  <td>Below 18.5</td>
+  	  <td>Underweight</td>
+	</tr>
+	<tr>
+	  <td>18.5-24.9</td>
+	  <td>Normal weight</td>
+	</tr>
+	<tr>
+	  <td>25.0-29.9</td>
+	  <td>Overweight</td>
+	</tr>
+	<tr>
+	  <td>30.0-34.9</td>
+	  <td>Obesity class 1</td>
+	</tr>
+	<tr>
+	  <td>35.0-39.9</td>
+	  <td>Obesity class 2</td>
+	</tr>
+	<tr>
+	  <td>Above 40</td>
+	  <td>Obesity class 3</td>
+	</tr>
+  </table>
+  <h1>BMI Calculator</h1>
+  Weight in kilograms<br><input type="text" id="n1">
+  <br><br>
+  Height in meters<br><input type="text" id="n2">
+  <br><br>
+  <h3 id="ans"></h3>
+  <h3 id="detail"></h3>
+  <br>
+  <button type="button" onclick="calculate()">Calculate</button>
+<script src="calculate.js"></script> 
+</body>
+</html>
